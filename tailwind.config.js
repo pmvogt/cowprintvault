@@ -6,16 +6,29 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		fontFamily: {
+			sans: ["Inter", "sans-serif"],
+		},
+		letterSpacing: {
+			tightest: "-1.4px",
+		},
 		extend: {
 			colors: {
 				copper: "#E69E7F",
 				offwhite: "#DED5D5",
 				hunter: "#253221",
+				marron: "#68472C",
 			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+			},
+			boxShadow: {
+				chunky: "7px 15px 0px 0px #E69E7F;",
+			},
+			fontFamily: {
+				"playfair-display": ["var(--font-playfair-display)", "serif"],
 			},
 		},
 	},
