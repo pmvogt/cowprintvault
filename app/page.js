@@ -194,13 +194,15 @@ export default function Home() {
 				</h2>
 				<div class="flex flex-col items-center space-y-6 w-full">
 					<p class="text-hunter text-lg font-sans">
-						Hit the button to send us an email and let us know you want in.
+						Hit the button to send us an email and let us know you want in. We
+						will only send an initial email to confirm your shipping address,
+						and an email when your gift is on the way.
 					</p>
 					<a
 						href="mailto:peter@petervogt.co"
 						class="px-4 w-full md:w-1/4 py-6 text-base font-medium text-offwhite bg-hunter hover:bg-copper focus:ring-4 focus:outline-none focus:ring-copper rounded-lg text-center"
 					>
-						Sign up
+						Sign up for the gift list
 					</a>
 					<Image src="/brand.png" width={88} height={88} alt="brand logo" />
 				</div>
