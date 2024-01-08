@@ -136,7 +136,7 @@ export default function Home() {
 							<span class="text-lg xs:mt-10 md:mt-20 leading-7 text-offwhite font-sans">
 								<p>
 									Great for using as a{" "}
-									<span class="text-copper font-bold">
+									<span class="text-copper font-semibold">
 										facial moisturizer, body butter, hand cream, lip balm, or
 										hair mask.
 									</span>
@@ -185,20 +185,30 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section class="flex flex-col items-center pt-20 w-full px-4">
+			<section class="flex flex-col items-center pt-20 pb-10 w-full px-4">
 				<Icon name="icon3" />
 				<h2
 					class={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
 				>
 					Not on the list?
 				</h2>
-				<div class="flex flex-col space-y-8">
+				<div class="flex flex-col items-center space-y-6 w-full">
 					<p class="text-hunter text-lg font-sans">
-						Hit the button to send us an email and let us know you want in. The
-						first batch was limited, but open to all.
+						Hit the button to send us an email and let us know you want in.
 					</p>
+					<a
+						href="mailto:peter@petervogt.co"
+						class="px-4 w-full md:w-1/4 py-6 text-base font-medium text-offwhite bg-hunter hover:bg-copper focus:ring-4 focus:outline-none focus:ring-copper rounded-lg text-center"
+					>
+						Sign up
+					</a>
+					<Image src="/brand.png" width={88} height={88} alt="brand logo" />
 				</div>
 			</section>
+			<footer class="text text-xs font-sans py-4 w-full bg-hunter text-white text-center">
+				Copyright 2024 Peter & Courtney Vogt. Attribution for the art deco icons
+				goes to the phenomenal Olena Panasovska via the nounproject.
+			</footer>
 		</main>
 	);
 }
