@@ -23,6 +23,7 @@ module.exports = {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+				"shining-pattern": "url('/pattern.png')",
 			},
 			boxShadow: {
 				chunky: "7px 15px 0px 0px #E69E7F;",
