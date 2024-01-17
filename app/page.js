@@ -57,15 +57,15 @@ export default function Home() {
 					</h2>
 				</motion.div>
 			</section>
-			<section class="pt-20 flex flex-col xs:px-8 items-center">
+			<section className="pt-20 flex flex-col xs:px-8 items-center">
 				<Icon name="icon1" />
 				<h2
-					class={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
+					className={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
 				>
 					What is “The Cowprint Vault”?
 				</h2>
-				<div class="about bg-marron shadow-chunky flex-col space-y-8 just md:flex-row rounded-lg flex place-items-start space-x-8 font-sans text-offwhite px-4 py-8 xs:max-w-none md:max-w-screen-lg">
-					<div class="about space-y-4 text-lg flex-shrink-1 leading-9 font-light">
+				<div className="about bg-marron shadow-chunky flex-col space-y-8 just md:flex-row rounded-lg flex place-items-start space-x-8 font-sans text-offwhite px-4 py-8 xs:max-w-none md:max-w-screen-lg">
+					<div className="about space-y-4 text-lg flex-shrink-1 leading-9 font-light">
 						<p>
 							When Courtney was diagnosed with EDS, POTS and MCAS, we ended up
 							converting many of our household products to homemade, natural
@@ -84,15 +84,15 @@ export default function Home() {
 							family can await a surprise gift from our “vault”.
 						</p>
 					</div>
-					<div class="about space-y-2">
+					<div className="about space-y-2">
 						<Image
 							src="/us.jpg"
-							class="rounded-md"
+							className="rounded-md"
 							width={360}
 							height={264}
 							alt="peter & courtney vogt stand in hotel Paisano lobby"
 						/>
-						<figcaption class="w-full text-sm italic">
+						<figcaption className="w-full text-sm italic">
 							Fun fact: two of our dogs have “cow print” pattern fur, and the
 							initials of “CowPrint Vault” mirror the initials of our names,
 							Courtney & Peter Vogt.
@@ -100,60 +100,62 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section class="flex flex-col items-center pt-20 w-full">
+			<section className="flex flex-col items-center pt-20 w-full">
 				<Icon name="icon2" />
 				<h2
-					class={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
+					className={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
 				>
 					This year&apos;s gift
 				</h2>
-				<div class="w-full flex flex-col items-center bg-hunter text-offwhite py-20">
-					<div class="flex flex-col md:flex-row space-x-8 space-y-4">
-						<div class="bg-shining-pattern bg-cover bg-center p-8">
+				<div className="w-full flex flex-col items-center bg-hunter text-offwhite py-20">
+					<div className="flex flex-col md:flex-row space-x-8 space-y-4">
+						<div className="bg-shining-pattern bg-cover bg-center p-8">
 							<Image
-								class="xs:invisible md:visible"
+								className="xs:invisible md:visible"
 								src="/cow.png"
 								width={454}
 								height={475}
 								alt="jar of tallow balm"
 							/>
 						</div>
-						<div class="flex flex-col">
-							<span class="flex-shrink-0 space-y-2">
+						<div className="flex flex-col">
+							<span className="flex-shrink-0 space-y-2">
 								<h4
-									class={`${playfair.variable} text-copper capitalize tracking-[2px] text-xl font-playfair-display`}
+									className={`${playfair.variable} text-copper capitalize tracking-[2px] text-xl font-playfair-display`}
 								>
 									NO. 01
 								</h4>
 								<h4
-									class={`${playfair.variable} text-offwhite tracking-[-9.6px] text-[128px] font-playfair-display line-clamp leading-none`}
+									className={`${playfair.variable} text-offwhite tracking-[-9.6px] text-[128px] font-playfair-display line-clamp leading-none`}
 								>
 									Tallow
 									<br />
 									balm
 								</h4>
 							</span>
-							<span class="text-lg xs:mt-10 md:mt-20 leading-7 text-offwhite font-sans">
+							<span className="text-lg xs:mt-10 md:mt-20 leading-7 text-offwhite font-sans">
 								<p>
 									Great for using as a{" "}
-									<span class="text-copper font-semibold">
+									<span className="text-copper font-semibold">
 										facial moisturizer, body butter, hand cream, lip balm, or
 										hair mask.
 									</span>
 								</p>
 								<p>
 									Contains{" "}
-									<span class="text-copper font-semibold">
+									<span className="text-copper font-semibold">
 										Vitamins A, D, E,
 									</span>{" "}
 									and{" "}
-									<span class="text-copper font-semibold">antioxidants.</span>
+									<span className="text-copper font-semibold">
+										antioxidants.
+									</span>
 								</p>
 							</span>
-							<div class="flex flex-col gap-4 md:flex-row pt-10 pr-2">
-								<ul class="space-y-2 text-lg">
+							<div className="flex flex-col gap-4 md:flex-row pt-10 pr-2">
+								<ul className="space-y-2 text-lg">
 									<h5
-										class={`${playfair.variable} text-copper tracking-tightest text-2xl font-playfair-display`}
+										className={`${playfair.variable} text-copper tracking-tightest text-2xl font-playfair-display`}
 									>
 										Instructions for use
 									</h5>
@@ -167,9 +169,9 @@ export default function Home() {
 									<li>Discard tallow after 6 months</li>
 									<li>Feel free to keep and reuse the jar!</li>
 								</ul>
-								<ul class="space-y-2 text-lg">
+								<ul className="space-y-2 text-lg">
 									<h5
-										class={`${playfair.variable} text-copper tracking-tightest text-2xl font-playfair-display`}
+										className={`${playfair.variable} text-copper tracking-tightest text-2xl font-playfair-display`}
 									>
 										Ingredients
 									</h5>
@@ -185,29 +187,29 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section class="flex flex-col items-center pt-20 pb-10 w-full px-4">
+			<section className="flex flex-col items-center pt-20 pb-10 w-full px-4">
 				<Icon name="icon3" />
 				<h2
-					class={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
+					className={`${playfair.variable} font-playfair-display mt-4 mb-8 text-4xl tracking-tightest font-medium text-hunter`}
 				>
 					Not on the list?
 				</h2>
-				<div class="flex flex-col items-center space-y-6 w-full">
-					<p class="text-hunter text-lg font-sans">
+				<div className="flex flex-col items-center space-y-6 w-full">
+					<p className="text-hunter text-lg font-sans">
 						Hit the button to send us an email and let us know you want in. We
 						will only send an initial email to confirm your shipping address,
 						and an email when your gift is on the way.
 					</p>
 					<a
 						href="mailto:peter@petervogt.co"
-						class="px-4 w-full md:w-1/4 py-6 text-base font-medium text-offwhite bg-hunter hover:bg-copper focus:ring-4 focus:outline-none focus:ring-copper rounded-lg text-center"
+						className="px-4 w-full md:w-1/4 py-6 text-base font-medium text-offwhite bg-hunter hover:bg-copper focus:ring-4 focus:outline-none focus:ring-copper rounded-lg text-center"
 					>
 						Sign up for the gift list
 					</a>
 					<Image src="/brand.png" width={88} height={88} alt="brand logo" />
 				</div>
 			</section>
-			<footer class="text text-xs font-sans py-4 w-full bg-hunter text-white text-center">
+			<footer className="text text-xs font-sans py-4 w-full bg-hunter text-white text-center">
 				Copyright 2024 Peter & Courtney Vogt. Attribution for the art deco icons
 				goes to the phenomenal Olena Panasovska via the nounproject.
 			</footer>
