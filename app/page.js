@@ -20,7 +20,7 @@ export default function Home() {
 	};
 
 	return (
-		<main className="flex min-h-screen flex-col items-center">
+		<main className="flex bg-offwhite min-h-screen flex-col items-center">
 			<section className="hero h-screen w-full xs:p-4 md:p-20">
 				<div className="w-full flex justify-between items-start">
 					<Image
