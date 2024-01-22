@@ -64,8 +64,8 @@ export default function Home() {
 				>
 					What is “The Cowprint Vault”?
 				</h2>
-				<div className="about bg-marron shadow-chunky flex-col space-y-8 just md:flex-row rounded-lg flex place-items-start space-x-8 font-sans text-offwhite px-4 py-8 xs:max-w-none md:max-w-screen-lg">
-					<div className="about space-y-4 text-lg flex-shrink-1 leading-9 font-light">
+				<div className="about bg-marron shadow-chunky flex-col space-y-8 just md:flex-row rounded-lg flex  space-x-8 font-sans text-offwhite px-8 py-8 xs:max-w-none md:max-w-screen-lg">
+					<div className="about space-y-4 text-lg  leading-7 font-light">
 						<p>
 							When Courtney was diagnosed with EDS, POTS and MCAS, we ended up
 							converting many of our household products to homemade, natural
@@ -88,8 +88,8 @@ export default function Home() {
 						<Image
 							src="/us.jpg"
 							className="rounded-md"
-							width={360}
-							height={264}
+							width={240}
+							height={240}
 							alt="peter & courtney vogt stand in hotel Paisano lobby"
 						/>
 						<figcaption className="w-full text-sm italic">
